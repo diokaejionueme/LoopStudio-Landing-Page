@@ -1,0 +1,31 @@
+*, *::before, *::after{
+    box-sizing: border-box;
+}
+
+:root {
+--White: hsl(0, 0%, 100%);
+--Black: hsl(0, 0%, 0%);
+--dark-Gray: hsl(0, 0%, 55%);
+--very-dark-Gray: hsl(0, 0%, 41%);
+font-size: 15px;
+
+}
+
+/*
+
+font-family: 'Alata', sans-serif;
+
+font-family: 'Josefin Sans', sans-serif;
+
+*/
+
+/*
+- Mobile: 375px
+- Desktop: 1440px
+*/
+
+
+
+
+
+
