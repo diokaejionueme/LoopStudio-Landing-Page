@@ -43,6 +43,32 @@ body {
 
 
 
+.bodyPart1{
+    font-family: 'Josefin Sans';
+    font-weight: 300;
+    background-color: var(--White);
+    width: 1440px;
+    height: 600px;
+    display: flex;
+}
+.vrImg{
+   padding: 100px;
+    width: 700px;
+    height: 500px;
+    
+    
+}
+.vrText{
+    width: 400px;
+    height: 400px;
+    background-color: var(--White);
+    text-align: center;
+    margin-right: 400px;
+    margin-top: 300px;
+    padding: 50px;
+    
+}
+
 .col{
     position: relative;
 }
