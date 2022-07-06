@@ -145,9 +145,34 @@ img {
     width: 100%;
 }
 
+.footer{
+    background-color: var(--Black);
+    display: flex;
+}
+.footer-lside{
+    padding: 20px;
 
 
+}
+.f-logo-div{
+    margin-left: 70px;
+    
+}
+.f-logo{
+    width: 30%;
+}
+.f-menu{
+    display: flex;
 
+}
+.list-item{
+
+}
+.footer-rside{
+    color: var(--White);
+    padding: 20px;
+    margin-left: 300px;
+}
 
 
 
