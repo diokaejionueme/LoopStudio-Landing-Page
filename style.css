@@ -24,6 +24,60 @@ font-family: 'Josefin Sans', sans-serif;
 - Desktop: 1440px
 */
 
+body {
+    margin: 0;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1rem;   
+}
+
+.container{
+    width: 85%;
+    margin: 0 auto;
+    max-width: 1440px;
+}
+
+.row{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.col{
+    position: relative;
+}
+
+.col > h3 {
+    position: absolute;
+    bottom: .5rem;
+    left: 1rem;
+    color: var(--White);
+
+}
+.col + .col{
+}
+
+.bodypart2--header{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2em;
+}
+
+.bodypart2--header > h2{
+    align-self: baseline;
+    text-transform: uppercase;
+}
+
+.bodypart2--header > a {
+    align-self: baseline;
+    text-decoration: none;
+    font-size: 0.8em;
+    text-transform: uppercase;
+    
+
+}
+
+
 
 
 
