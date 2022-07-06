@@ -39,8 +39,31 @@ body {
 .row{
     display: flex;
     justify-content: space-between;
+    margin-bottom: 2em;
+    
 }
 
+.hero > img{
+    position: absolute;
+}
+
+.img-logo {
+    position: relative;
+    margin-top: 2em;
+}
+
+.nav{
+    position: relative;
+    margin-top: 2em;
+    display: block; 
+}
+
+  a{
+    margin-left: 1.8em;
+    text-decoration: none;
+    color: var(--White);
+
+}
 
 
 .bodyPart1{
@@ -51,6 +74,7 @@ body {
     height: 600px;
     display: flex;
 }
+
 .vrImg{
    padding: 100px;
     width: 700px;
@@ -75,33 +99,53 @@ body {
 
 .col > h3 {
     position: absolute;
-    bottom: .5rem;
-    left: 1rem;
+    bottom: 2.5rem;
+    left: 2rem;
     color: var(--White);
+    text-transform: uppercase;
+
+
+}
+
+.hero-text{
+    position: absolute;
+    margin-top: 3em;
+    border:2px solid var(--White);
+    color: var(--White);
+    font-size: 4em;
+    text-transform: uppercase;
+    padding: 0.5em 1.5em 0.5em 0.5em;
 
 }
 .col + .col{
 }
 
-.bodypart2--header{
+.bodyPart2--header{
     display: flex;
     justify-content: space-between;
     margin-bottom: 2em;
 }
 
-.bodypart2--header > h2{
+.bodyPart2--header > h2{
     align-self: baseline;
     text-transform: uppercase;
 }
 
-.bodypart2--header > a {
+.bodyPart2--header > a {
     align-self: baseline;
     text-decoration: none;
     font-size: 0.8em;
+    padding: 0.5em 0.75em;
     text-transform: uppercase;
-    
+    border: 1px solid black;
 
 }
+
+img {
+    width: 100%;
+}
+
+
 
 
 
