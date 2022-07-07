@@ -43,8 +43,13 @@ body {
     
 }
 
-.hero > img{
+/* .hero > img{
     position: absolute;
+} */
+
+.hero{
+    background-image: url(images/desktop/image-hero.jpg);
+    height: 100vh;
 }
 
 .img-logo {
@@ -66,7 +71,7 @@ body {
 }
 
 
-.bodyPart1{
+/* .bodyPart1{
     font-family: 'Josefin Sans';
     font-weight: 300;
     background-color: var(--White);
@@ -91,6 +96,10 @@ body {
     margin-top: 300px;
     padding: 50px;
     
+} */
+
+.bodyPart1{
+    display: flex;
 }
 
 .col{
