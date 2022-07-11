@@ -34,6 +34,7 @@ body {
     width: 85%;
     margin: 0 auto;
     max-width: 1440px;
+    position: relative;
 }
 
 .row{
@@ -41,6 +42,44 @@ body {
     justify-content: space-between;
     margin-bottom: 2em;
     
+}
+
+
+.nav{
+    visibility: visible;
+    margin-top: 2em;
+   
+}
+
+
+
+
+.nav-toggle{
+    display: none;
+}
+
+.nav__list{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+}
+
+.nav__link{
+    color: #fff;
+    text-decoration: none;
+}
+.nav__item{
+
+}
+
+
+.nav__item + .nav__item{
+    margin-left: 1rem;
+}
+
+.nav__link:hover{
+
 }
 
 /* .hero > img{
@@ -57,6 +96,7 @@ body {
     margin-top: 2em;
 }
 
+/* Original navbar setting
 .nav{
     position: relative;
     margin-top: 2em;
@@ -69,9 +109,9 @@ body {
     color: var(--White);
 
 }
+ */
 
-
-/* .bodyPart1{
+.bodyPart1{
     font-family: 'Josefin Sans';
     font-weight: 300;
     background-color: var(--White);
@@ -151,8 +191,14 @@ body {
 }
 
 img {
-    width: 100%;
+    max-width: 100%;
 }
+
+
+
+/**** Pre-coded
+
+*/
 
 .footer{
     background-color: var(--Black);
@@ -183,7 +229,100 @@ img {
     margin-left: 300px;
 }
 
+.btn{
+    color: var(--Black);
+}
 
 
 
+@media (max-width: 665px){
+    .nav{
+        visibility: hidden;
+        height: 0;
+        position: absolute;
+    }
 
+    .nav-toggle {
+        display:inline;
+        margin-top: 2em;
+        cursor: pointer;
+        border: 0;
+        width: 3em;
+        height: 3em;
+        padding: 0em;
+        border-radius: 50%;
+        background: #072A2D;
+        color: white;
+        transition: opacity 250ms ease;
+        position: relative;
+        right: 0;
+    }
+
+    
+.hamburger {
+    width: 50%;
+    position: relative;
+    border: 
+}
+
+.hamburger,
+.hamburger::before,
+.hamburger::after {
+    display: block;
+    margin: 0 auto;
+    height: 3px;
+    background: white;
+}
+
+.hamburger::before,
+.hamburger::after {
+    content: '';
+    width: 100%;
+}
+
+.hamburger::before {
+    transform: translateY(-6px);
+}
+
+.hamburger::after {
+    transform: translateY(3px);
+}
+
+.nav__list{
+    /* padding: 0;
+    margin: 0; */ 
+    position: relative;
+    list-style: none;
+    display:block;
+    flex-direction: column;
+    align-items:flex-start;
+    font-size: .9rem;
+    margin-top: 3.5em;
+    left: 15vw;
+}
+.nav__link{
+    color: #fff;
+    text-decoration: none;
+    text-transform:capitalize;
+}
+
+
+.nav--visible {
+    visibility: visible;
+    height: auto;
+    position: relative;
+    
+}
+
+.nav__item{
+    padding: .5em;
+}
+
+
+
+.nav__item + .nav__item{
+    margin-left: 0em;
+}
+
+
+}
