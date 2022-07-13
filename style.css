@@ -148,8 +148,9 @@ body {
 
 .col > h3 {
     position: absolute;
-    bottom: 2.5rem;
-    left: 2rem;
+    /*bottom: .5rem;*/
+    bottom: 0;
+    left: 1.2rem;
     color: var(--White);
     text-transform: uppercase;
 
@@ -235,7 +236,23 @@ img {
 
 
 
+.mobile-image{
+    display: none;
+}
+
+
+
 @media (max-width: 665px){
+
+    .desktop-image{
+        display: none;
+    }
+
+    .mobile-image{
+        display: block;
+        margin-bottom: 2.5em;
+    }
+
 
     img{
         width: 100%;
